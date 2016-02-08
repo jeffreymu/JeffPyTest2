@@ -1,4 +1,6 @@
 # T3.py
+# from singleton import SingletonExample
+
 
 class Person(object):
     def __init__(self):
@@ -27,3 +29,8 @@ Person.hi('Hi!')
 # 实例化类调用普通方法,__init__在这里触发
 person = Person()
 person.hobby('football')
+
+
+# print("Singleton!")
+# s = SingletonExample()
+# print(id(s))

@@ -6,10 +6,10 @@ class Singleton(object):
             cls.instance = super(Singleton, cls).__new__(cls)
         return cls.instance
 
-if __name__ == '__main__':
-    a = Singleton()
-    b = Singleton()
-    c = Singleton()
-    print(id(a))
-    print(id(b))
-    print(id(c))
+# if __name__ == '__main__':
+#     a = Singleton()
+#     b = Singleton()
+#     c = Singleton()
+#     print(id(a))
+#     print(id(b))
+#     print(id(c))
